@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Year Courses - After Class</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <span class="logo-after">After</span>
+                        <span class="logo-class">Class</span>
+                    </a>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <a href="1st-year.html" class="nav-link">1ST YEAR</a>
+                <a href="2nd-year.html" class="nav-link active">2ND YEAR</a>
+                <a href="3rd-year.html" class="nav-link">3RD YEAR</a>
+                <a href="4th-year.html" class="nav-link">4TH YEAR</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">2ND YEAR ENGINEERING COURSES</h1>
+            <p class="page-subtitle">Core computer science and engineering fundamentals</p>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <main class="courses-section">
+        <div class="container">
+            <div class="courses-grid">
+                <div class="course-card">
+                    <h3 class="course-title">DATA STRUCTURES AND ALGORITHMS</h3>
+                    <div class="course-description">
+                        <p>Fundamental data structures and algorithmic problem-solving techniques.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openPlaylist('data-structures-algorithms', 0)">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Video 1)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('data-structures-algorithms', 1)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Video 2)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('data-structures-algorithms', 2)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist)
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-title">RELATIONAL DATABASE MANAGEMENT SYSTEM</h3>
+                    <div class="course-description">
+                        <p>Database design, SQL, and relational database management principles.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openPlaylist('rdbms', 0)">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 1)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('rdbms', 1)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 2)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('rdbms', 2)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 3)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('rdbms', 3)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Video)
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-title">PRINCIPLES OF ARTIFICIAL INTELLIGENCE</h3>
+                    <div class="course-description">
+                        <p>Introduction to AI concepts, machine learning, and intelligent systems.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openPlaylist('artificial-intelligence', 0)">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 1)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('artificial-intelligence', 1)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 2)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('artificial-intelligence', 2)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Video 1)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('artificial-intelligence', 3)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Video 2)
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-title">OBJECT ORIENTED PROGRAMMING USING PYTHON</h3>
+                    <div class="course-description">
+                        <p>Python programming with object-oriented design principles and best practices.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openYouTube('python-oop')">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-title">DATA STRUCTURES AND ALGORITHMS LAB</h3>
+                    <div class="course-description">
+                        <p>Practical implementation of data structures and algorithms in programming.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openYouTube('dsa-lab')">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-title">RELATIONAL DATABASE MANAGEMENT SYSTEM LAB</h3>
+                    <div class="course-description">
+                        <p>Hands-on experience with database design and SQL implementation.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openYouTube('rdbms-lab')">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-title">STATISTICS & PROBABILITY</h3>
+                    <div class="course-description">
+                        <p>Mathematical foundations of statistics and probability for engineering applications.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openPlaylist('statistics-probability', 0)">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 1)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('statistics-probability', 1)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 2)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('statistics-probability', 2)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 3)
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-title">MANAGEMENT OF TECHNOLOGY</h3>
+                    <div class="course-description">
+                        <p>Understanding technology management principles and innovation strategies.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openYouTube('management-technology')">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-title">CLOUD COMPUTING</h3>
+                    <div class="course-description">
+                        <p>Cloud computing architectures, services, and deployment models for modern applications.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openPlaylist('cloud-computing-2nd', 0)">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 1)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('cloud-computing-2nd', 1)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 2)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('cloud-computing-2nd', 2)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Video)
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-title">DESIGN AND ANALYSIS OF ALGORITHMS</h3>
+                    <div class="course-description">
+                        <p>Advanced algorithmic design techniques and complexity analysis for efficient problem-solving.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openPlaylist('design-analysis-algorithms-2nd', 0)">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('design-analysis-algorithms-2nd', 1)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Video 1)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('design-analysis-algorithms-2nd', 2)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Video 2)
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-title">ENGINEERING ECONOMICS</h3>
+                    <div class="course-description">
+                        <p>Economic analysis and decision-making in engineering projects and investments.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openPlaylist('engineering-economics-2nd', 0)">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 1)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('engineering-economics-2nd', 1)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 2)
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-title">OPERATING SYSTEMS</h3>
+                    <div class="course-description">
+                        <p>Operating system concepts, processes, memory management, and file systems.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openPlaylist('operating-systems-2nd', 0)">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 1)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('operating-systems-2nd', 1)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 2)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('operating-systems-2nd', 2)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Video)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('operating-systems-2nd', 3)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 3)
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-title">SOFTWARE ENGINEERING & PROJECT MANAGEMENT</h3>
+                    <div class="course-description">
+                        <p>Software development methodologies and project management principles for successful delivery.</p>
+                    </div>
+                    <div class="course-resources">
+                        <button class="btn-watch" onclick="openPlaylist('software-engineering-pm-2nd', 0)">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Video)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('software-engineering-pm-2nd', 1)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 1)
+                        </button>
+                        <button class="btn-watch" onclick="openPlaylist('software-engineering-pm-2nd', 2)" style="margin-top: 0.5rem;">
+                            <i class="fab fa-youtube"></i>
+                            WATCH LECTURES (Playlist 2)
+                        </button>
+                        <div class="resource-links">
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-file-pdf"></i>
+                                Notes
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-question-circle"></i>
+                                PYQ
+                            </a>
+                            <a href="#" class="resource-link">
+                                <i class="fas fa-book"></i>
+                                Reference Books
+                            </a>
+                        </div>
+                    </div>
+                    <p class="course-status">Complete Resources Available</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <p class="footer-text">
+                        After Class is your comprehensive engineering education platform. 
+                        We provide curated YouTube channels, study materials, and resources 
+                        to help engineering students excel in their academic journey.
+                    </p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="http://www.youtube.com/@amritprakash9054" class="social-link youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/amrit-prakash-78613028b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1ZVVh7ZrTk6%2FLi4uIv3JpQ%3D%3D" class="social-link linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Message" rows="3" required></textarea>
+                        <button type="submit" class="btn btn-primary">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2024 After Class. Made by Amrit Prakash. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
